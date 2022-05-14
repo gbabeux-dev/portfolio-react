@@ -1,11 +1,8 @@
-# Portfólio João Túlio
+# Portfolio Gabriel Babeux
 
-Este projeto foi criado com CRA (Create React App).
+A simple React portfolio website
 
-Este é meu site para me apresentar, aqui coloco minhas habilidades, portfólio, e formas de contato.
-
-
-## Tecnologias usadas:
+## Techonologies:
 - React
 - Typescript
 - Styled Components
