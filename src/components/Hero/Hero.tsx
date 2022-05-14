@@ -3,6 +3,7 @@ import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
+import linkedinIcon from "../../assets/linkedin.png"
 import CurriculumEN from '../../assets/CV-2022-EN.pdf'
 
 export function Hero() {
@@ -16,10 +17,18 @@ export function Hero() {
           <h1>Gabriel Babeux</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Full Stack Developer</h3>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">I am student in sofware engineering at ETS. </p>
+          <div className="job-title">
+            <h3 style={{ marginRight: "10px" }}>Full Stack Developer</h3>
+            <a
+              href="https://www.linkedin.com/in/gabriel-babeux/"
+              target="_blank"
+              rel="noreferrer"
+              className="linkedin-btn"
+            >
+              <img src={linkedinIcon} alt="Linkedin" />
+            </a>
+          </div>
+
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>

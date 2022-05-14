@@ -60,4 +60,21 @@ export const Container = styled.section`
   @media(max-width: 480px){
     margin-top: 35%;
   }
+
+  .linkedin-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    img,span{
+      font-size: 3rem;
+      width: 3rem;
+    }
+  }
+
+  .job-title{
+    display: flex;
+    margin-bottom: 5rem;
+  }
 `
