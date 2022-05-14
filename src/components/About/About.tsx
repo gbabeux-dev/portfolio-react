@@ -29,7 +29,7 @@ export function About() {
           </ScrollAnimation>
 
           <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-            <p>I am passionate about programming, solving problems and overcoming challenges. I love to learn every day and really enjoy teamwork!</p>
+            <p>I am passionate about programming, solving problems and overcoming new challenges. I love to learn every day and really enjoy teamwork!</p>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
             <p>I have acquired some great experience throughout the startups companies that I have worked for, both on the frontend and the backend side of things. </p>
