@@ -12,7 +12,7 @@ export function Footer() {
       </a>
       <div>
         <p>
-          This website template is a fork of <a href="https://github.com/joaotuliojt" target="_blank" style={{ color: `var(--green)` }}> João Túlio</a>'s project
+          This website template is a fork of <a href="https://github.com/joaotuliojt" target="_blank" style={{ color: `var(--main)` }}> João Túlio</a>'s project
           <img src={reactIcon} alt="React" />
         </p>
       </div>

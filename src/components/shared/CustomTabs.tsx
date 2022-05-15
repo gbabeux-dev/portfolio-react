@@ -19,11 +19,11 @@ const useStyles = makeStyles({
         fontSize: '1.8rem',
         textTransform: "none",
         "& .Mui-selected": {
-            color: 'var(--green) !important',
+            color: 'var(--main) !important',
         }
     },
     customTabIndicator: {
-        background: 'var(--green) !important'
+        background: 'var(--main) !important'
     },
     container: {
         backdropFilter: 'blur(6px)'

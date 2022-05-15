@@ -11,10 +11,10 @@ const useStyles = makeStyles({
     },
     date: {
         fontSize: '1.4rem',
-        color: 'var(--green) !important'
+        color: 'var(--main) !important'
     },
     link: {
-        color: 'var(--green) !important'
+        color: 'var(--main) !important'
     }
 })
 

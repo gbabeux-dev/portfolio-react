@@ -9,14 +9,14 @@ const useStyles = makeStyles({
     techStack: {
         fontSize: '1.4rem',
         marginTop: '2rem',
-        color: 'var(--green) !important'
+        color: 'var(--main) !important'
     },
     customLi: {
         marginBottom: '1rem'
     },
     date: {
         fontSize: '1.4rem',
-        color: 'var(--green) !important'
+        color: 'var(--main) !important'
     }
 })
 
