@@ -58,11 +58,11 @@ export default function CustomTabs(props: Props) {
     const isMobile = width <= 820;
 
     const tabsPanels = props.tabsPanelsContent.map((tabPanelContent, index) => (
-        <TabPanel value={value} index={index}>{tabPanelContent}</TabPanel>
+        <TabPanel key={`tab-panel-${index}`} value={value} index={index}>{tabPanelContent}</TabPanel>
     ))
 
     const tabs = props.tabsNames.map((tabName, index) => (
-        <Tab label={<span className={classes.tab}>{tabName}</span>} {...tabProps(index)} />
+        <Tab key={`tab-${index}`} label={<span className={classes.tab}>{tabName}</span>} {...tabProps(index)} />
     ))
 
     return (
