@@ -40,11 +40,14 @@ export function Header() {
           <NavHashLink smooth to="#sobre" onClick={closeMenu}>
             About Me
           </NavHashLink>
-          <NavHashLink smooth to="#portfolio" onClick={closeMenu}>
-            Portfólio
+          <NavHashLink smooth to="#experience" onClick={closeMenu}>
+            Experience
           </NavHashLink>
-          <NavHashLink smooth to="#contato" onClick={closeMenu}>
-            Contato
+          <NavHashLink smooth to="#project" onClick={closeMenu}>
+            Projects
+          </NavHashLink>
+          <NavHashLink smooth to="#contact" onClick={closeMenu}>
+            Contact
           </NavHashLink>
           <a href={CurriculumEN} download className="button">
             CV

@@ -16,6 +16,7 @@ import { Contact } from "../Contact/Contact";
 import { Hero } from "../Hero/Hero";
 import { Experience } from "../Experience/Experience";
 import { Container } from "./styles";
+import { Project } from "../Project/Project";
 
 
 
@@ -253,10 +254,11 @@ export function Main() {
           }
         }}
       />
-      <Hero></Hero>
-      <About></About>
-      <Experience></Experience>
-      <Contact></Contact>
+      <Hero />
+      <About />
+      <Experience />
+      <Project />
+      <Contact />
     </Container>
   );
 }

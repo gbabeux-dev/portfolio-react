@@ -48,7 +48,6 @@ export default function WorkTabs(props: Props) {
                     <p>During my internship I created a product recommendation micro-service using Flask and Docker. The service uses an IBCF (Item base collaborative filtering) algorithm in order to build a model for the recommendations. The model is then uploaded to an AWS Bucket and later used by the micro-service to expose an API endpoint where users can get multiple types of recommendations (by popularity, what you've ordered previously, formats etc.).</p>
                     <br />
                     <p>After that, I also worked on multiple features concerning the Webapp and the Api such as: an order history module, a retailer dashboard, a PDF micro-service, retailers maps and much more. The main stack that we use at Pivohub is React, Typescript, Node.js, Redux and MongoDB.</p>
-
                 </div>
             )}
 
