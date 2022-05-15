@@ -16,7 +16,8 @@ const useStyles = makeStyles({
     },
     date: {
         fontSize: '1.4rem',
-        color: 'var(--main) !important'
+        color: 'var(--main) !important',
+        marginBottom: '1rem'
     }
 })
 
