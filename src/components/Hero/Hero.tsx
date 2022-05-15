@@ -1,10 +1,9 @@
-import { BrowserRouter } from "react-router-dom"
-import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
-import Illustration from "../../assets/illustration.svg"
-import { NavHashLink } from "react-router-hash-link"
-import linkedinIcon from "../../assets/linkedin.png"
+import { BrowserRouter } from "react-router-dom"
 import CurriculumEN from '../../assets/CV-2022-EN.pdf'
+import Illustration from "../../assets/illustration.svg"
+import linkedinIcon from "../../assets/linkedin.png"
+import { Container } from "./styles"
 
 export function Hero() {
   return (

@@ -19,7 +19,7 @@ export function About() {
   return (
     <Container id="sobre">
       <div className="about-text">
-        <div style={{ backdropFilter: `blur(6px)` }}>
+        <div style={{ backdropFilter: 'blur(6px)' }}>
           <ScrollAnimation animateIn="fadeInLeft">
             <h2>About me</h2>
           </ScrollAnimation>

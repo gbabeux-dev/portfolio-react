@@ -68,6 +68,7 @@ export const Container = styled.section`
 
     .about-image{
       display: flex;
+      justify-content: center;
     }
     .hard-skills{
       justify-content: center;
