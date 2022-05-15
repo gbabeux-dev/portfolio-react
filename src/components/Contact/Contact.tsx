@@ -19,10 +19,9 @@ export function Contact() {
         </div>
         <div>
           <img src={phoneIcon} alt="Email" />
-          <a href="#">(1) 438-392-648</a>
+          <a href="#">(1) 438-392-6548</a>
         </div>
       </div>
-      <Form></Form>
     </Container>
   )
 }
