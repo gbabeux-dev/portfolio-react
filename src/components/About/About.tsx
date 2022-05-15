@@ -17,7 +17,7 @@ import { Container } from "./styles";
 
 export function About() {
   return (
-    <Container id="sobre">
+    <Container id="about">
       <div className="about-text">
         <div style={{ backdropFilter: 'blur(6px)' }}>
           <ScrollAnimation animateIn="fadeInLeft">
