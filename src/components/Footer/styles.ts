@@ -9,6 +9,9 @@ export const Container = styled.footer`
   align-items: center;
   justify-content: space-between;
 
+  @media(max-width: 1000px){
+    padding: 3rem 5rem;
+  }
 
   .logo{
     font-size: 2.8rem;
