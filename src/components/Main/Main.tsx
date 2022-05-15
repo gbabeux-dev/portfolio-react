@@ -14,7 +14,7 @@ import vscodeIcon from "../../assets/vscode-icon.svg";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Hero } from "../Hero/Hero";
-import { Portfolio } from "../Portfolio/Portfolio";
+import { Experience } from "../Experience/Experience";
 import { Container } from "./styles";
 
 
@@ -255,7 +255,7 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
-      <Portfolio></Portfolio>
+      <Experience></Experience>
       <Contact></Contact>
     </Container>
   );

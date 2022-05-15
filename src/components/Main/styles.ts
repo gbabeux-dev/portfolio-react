@@ -15,7 +15,7 @@ export const Container = styled.main`
     z-index: -1;
   }
 
-  @media (max-width: 740px){
+  @media (max-width: 820px){
     padding: 0 4rem;
   }
 
