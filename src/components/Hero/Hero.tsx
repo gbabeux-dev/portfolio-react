@@ -1,6 +1,6 @@
 import ScrollAnimation from "react-animate-on-scroll"
 import { BrowserRouter } from "react-router-dom"
-import CurriculumEN from '../../assets/CV-2022-EN.pdf'
+import CurriculumEN from '../../assets/CV-2023-EN-PDF.pdf'
 import Illustration from "../../assets/illustration.svg"
 import linkedinIcon from "../../assets/linkedin.png"
 import { Container } from "./styles"

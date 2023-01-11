@@ -28,10 +28,38 @@ interface Props {
 export default function WorkTabs(props: Props) {
     const classes = useStyles()
     const tabsPanelsContent = [
+        //CDPQ
+        <div className={classes.tabPanelContent} >
+            <div className={classes.date}>
+                08/2022 - 12/2022
+            </div>
+            {!props.showDetails && (
+                <ol>
+                    <li className={classes.customLi}>1. Developed and deployed new widgets for the CDPQ intranet.</li>
+                    <li className={classes.customLi}>2. Implemented a caching system to increase the performance of the Digital Office.</li>
+                    <li className={classes.customLi}>3. Completely refactored the Digital Office navigation menu (Montreal and international offices)</li>
+                    <li className={classes.customLi}>4. Created and configured pipelines that process data from different APIs.</li>
+                </ol>
+            )}
+            {props.showDetails && (
+                <div>
+                    <p>I did an internship at CDPQ (Caisse de dépôt et placement du Québec) as a Software Developer in the Digital Office team. The Digital Office is a highly customizable intranet site used by all the employees at CDPQ (Montreal and internationally).</p>
+                    <br />
+                    <p>During my internship, I completely refactored the Digital Office navigation menu (Montreal and international offices). A new design and new features were implemented in the menu. I also developed and deployed multiple new widgets for the CDPQ intranet during the course of my internship.</p>
+                    <br />
+                    <p>I implemented a new caching system that drastically increased the performance of the Digital Office. I also created and configured different pipelines with SnapLogic that process data from our APIs. One of the pipelines I was working on was a pipeline that processed data from the notifications systems at CDPQ in order to aggregate it in the Digital Office.</p>
+                </div>
+            )}
+
+            <div className={classes.techStack}>
+                React, Typescript, Node.js, Sharepoint, MSGraph, Azure Devops, Akumina, SnapLogic
+            </div>
+        </div>
+        ,
         //Pivohub
         <div className={classes.tabPanelContent} >
             <div className={classes.date}>
-                01/2020 - present
+                01/2020 - 08/2022
             </div>
             {!props.showDetails && (
                 <ol>
@@ -44,7 +72,7 @@ export default function WorkTabs(props: Props) {
             )}
             {props.showDetails && (
                 <div>
-                    <p>I did an internship and I am also currently working part-time as a full stack developer at Pivohub while pursuing my studies at ETS. PivoHub is an e-commerce company that brings the brewing industry together in an online B2B marketplace to increase access to craft beverages. </p>
+                    <p>I did an internship and worked part-time as a full stack developer at Pivohub while pursuing my studies at ETS. PivoHub is an e-commerce company that brings the brewing industry together in an online B2B marketplace to increase access to craft beverages. </p>
                     <br />
                     <p>During my internship I created a product recommendation micro-service using Flask and Docker. The service uses an IBCF (Item base collaborative filtering) algorithm in order to build a model for the recommendations. The model is then uploaded to an AWS Bucket and later used by the micro-service to expose an API endpoint where users can get multiple types of recommendations (by popularity, what you've ordered previously, formats etc.).</p>
                     <br />
@@ -114,6 +142,7 @@ export default function WorkTabs(props: Props) {
 
     const tabsNames = (
         [
+            "CDPQ",
             "Pivohub",
             "Ongoing",
             "Pheidi"
